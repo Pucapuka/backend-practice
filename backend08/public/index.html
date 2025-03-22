@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frontend Consumindo API</title>
+    </head>
+    <body>
+        <h1>Lista de Itens</h1>
+        <ul id="item-list"></ul>
+            <h2>Adicionar Novo Item</h2>
+            <form id="add-item-form">
+                <input type="text" id="item-name" placeholder="Nome do Item" required>
+                <button type="submit">Adicionar</button>
+            </form>
+
+            <h2>Atualizar Item</h2>
+            <form id="update-item-form">
+                <input type="number" id="update-item-id" placeholder="ID do item" required>
+                <input type="text" id="update-item-name" placeholder="Novo Nome do Item" required>
+                <button type="submit">Adicionar</button>
+            </form>
+
+            <h2>Deletar Item</h2>
+            <form id="delete-item-form">
+                <input type="number" id="delete-item-id" placeholder="ID do item" required>
+                <button type="submit">Deletar</button>
+            </form>
+
+        <script src = "script.js"></script>
+    </body>
+</html>

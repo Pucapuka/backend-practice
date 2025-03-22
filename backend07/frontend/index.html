@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <title>Produtos</title>
+    </head>
+    <body>
+        <h1>Produtos</h1>
+        <ul id="products-list"></ul>
+        <h2>Adicionar Produto</h2>
+        <form id="add-product-form">
+            <input type="text" id="add-product-name">
+            <button type="submit" id="add-button">Adicionar Produto</button>
+        </form>
+        
+        <h2>Editar Produto</h2>
+        <form id="edit-product-form">
+            <input type="number" id="edit-product-id" placeholder="Id do produto">
+            <input type="text" id="edit-product-name" placeholder="Nome do produto">
+            <button type="submit">Editar Produto</button>
+        </form>
+
+        <h2>Deletar Produto</h2>
+        <form id="delete-product-form">
+            <input type="number" id="delete-product-id" placeholder="Id do produto">
+            <button type="submit">Deletar Produto</button>
+        </form>
+        <script src="products.js"></script>
+
+    </body>
+</html>
